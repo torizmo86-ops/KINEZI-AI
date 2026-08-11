@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Поздрав
-        run: echo "Здравей от KINEZI AI!"
+      - name: Изтегляне на проекта
+        uses: actions/checkout@v4
+
+      - name: Стартиране на Python
+        run: python main.py

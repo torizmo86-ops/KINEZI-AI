@@ -1,0 +1,15 @@
+name: KINEZI AI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  kinezi:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Изтегляне на проекта
+        uses: actions/checkout@v4
+
+      - name: Стартиране на Python
+        run: python main.py

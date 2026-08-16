@@ -1,4 +1,4 @@
-name: KINEZI AI
+name: KINEZI AI TEST
 
 on:
   workflow_dispatch:
